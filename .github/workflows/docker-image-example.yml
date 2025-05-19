@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: ghcr.io/Lumi98/example-image
+  IMAGE_NAME: ghcr.io/lumi98/example-image
 
 jobs:
   build:
