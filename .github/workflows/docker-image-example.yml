@@ -65,5 +65,5 @@ jobs:
           context: ./
           file: ./Docker/Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}:${{ steps.version.outputs.version }}
+          tags: ghcr.io/lumi98/dummy_docker_images:${{ steps.version.outputs.version }}
           labels: ${{ steps.meta.outputs.labels }}
